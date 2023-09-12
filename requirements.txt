@@ -1,7 +1,4 @@
 numpy==1.24.3
 pandas==1.5.3
 Pillow==9.4.0
-scikit_learn==1.2.2
 streamlit==1.25.0
-tensorflow==2.13.0
-pickle==1.3
