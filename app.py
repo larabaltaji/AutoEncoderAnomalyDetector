@@ -124,7 +124,7 @@ if app_mode == 'About':
     st.write("Integrated Digital Systems Fintech (IDS Fintech) is a leading provider of cutting-edge Financial Software Solutions in the MENA market. Specializing in portfolio management and trading solutions, IDS Fintech empowers financial companies, including investment banks, brokerage firms, funds and family offices, with state-of-the-art tools for effective management, automation, and monitoring of their investment processes. ")
     st.write('At the heart of IDS Fintech’s comprehensive suite of solutions lies Vestio, an advanced asset management system that revolutionizes the way financial institutions handle their investment operations. Vestio brings together a powerful combination of modelling, benchmarking, rebalancing, risk calculators, and ad-hoc compliance tools, providing a platform that assures seamless integration with trading engines, such as ROR, and depository containers, including accounting systems.')
     st.write('The primary goal of this collaborative project was to develop and implement an anomaly detection model tailored to IDS Fintech’s transactional financial data in order to enhance their security and operational efficiency. ')
-    data = pd.read_excel(r'C:\Users\l.baltaji\Desktop\Capstone Project\Methodology and Source Code\Tickets Table Plus Synthesized Anomalies.xlsx')
+    data = pd.read_excel(r'Tickets Table Plus Synthesized Anomalies.xlsx')
     st.markdown('Dataset Used: ')
     st.write(data.head())
         
